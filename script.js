@@ -10,7 +10,7 @@ function showMessage(choice) {
   if (choice === 'yes') {
     messageElement.textContent = 'I LOVE YOU SO FUCKING MUCH AND HAPPY THAT UR IN MY LIFE AGAIN UR SO COOL AND CUTE AND HOT AND I LOVE U DUMMY';
   } else {
-    messageElement.textContent = 'NUH UH YOU CAN'T SAY NO YOU'RE STILL GONNA BE MY VALENTINE STUPUD. I LOVE YOU SO MUCH';
+    messageElement.textContent = 'NUH UH YOU CANT SAY NO YOURE STILL GONNA BE MY VALENTINE STUPUD. I LOVE YOU SO MUCH';
   }
 
   messageSection.style.display = 'block';
