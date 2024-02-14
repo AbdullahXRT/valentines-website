@@ -1,3 +1,6 @@
+console.log('Script loaded!');
+
+
 function showMessage(choice) {
   const questionSection = document.getElementById('question-section');
   const messageSection = document.getElementById('message-section');
