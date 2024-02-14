@@ -8,13 +8,20 @@
 </head>
 <body>
   <header>
-    <h1>Retaj</h1>
+    <h1>Retaj's Valentine's Day</h1>
   </header>
-  <section>
-    <p>You are literally the most perfect girl in the world and I love you so fucking much and I would love to ask of you to be my girlfriend!!! I LOVE YOU SO MUCH</p>
+  <section id="question-section">
+    <p>Will you be my Valentine?</p>
+    <button onclick="showMessage('yes')">Yes</button>
+    <button onclick="showMessage('no')">No</button>
+  </section>
+  <section id="message-section" style="display: none;">
+    <p id="message"></p>
   </section>
   <footer>
-    <p>Created with ❤️ by Your Aboodi</p>
+    <p>Created with ❤️ by your Aboodi</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
